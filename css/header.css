@@ -1,0 +1,80 @@
+.header-logo {
+	float: left;
+	margin: 0%;
+}
+
+.header-nav-item {
+  list-style: none;
+  padding: 0 20px;
+  margin-right: 7%;
+  margin-top: 3%;
+  display: inline-block;
+}
+.text-nav {
+	  text-decoration: none;
+  color: black;
+  font-style: italic;
+  font-size: 18px;
+}
+
+.text-main {
+  text-decoration: none;
+  color: black;
+  font-family: Georgia, monospace;
+}
+
+.u-full-width {
+  width: 100%;
+  box-sizing: border-box; }
+
+  .button {
+  background-color: #fff;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+  .leftimg {
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+   }
+   .rightimg  {
+    float: right; /* Выравнивание по правому краю  */ 
+    margin: 7px 0 7px 7px; /* Отступы вокруг картинки */
+   }
+
+ /* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: #6495ED;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 0px;
+  text-decoration: none;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: none;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+} 
