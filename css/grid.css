@@ -31,3 +31,10 @@
 .buffer-bottom {
 	margin-bottom: 15px;
 }
+
+.borders {
+  margin-top: .2%;
+  margin-bottom: .4%;
+  margin-left: .5%;
+  margin-right: .5%;
+}
